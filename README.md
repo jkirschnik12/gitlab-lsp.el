@@ -81,6 +81,8 @@ Gitlab Duo Code Assistant completions via [Gitlab LSP](https://gitlab.com/gitlab
 
 </details>
 
+The Gitlab LSP server provides the _Inline Completions_ method -- you can use this server with the UI provided [here](https://github.com/kassick/lsp-inline-completions) -- just make sure the server is running.
+
 
 ## Setup
 

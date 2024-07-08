@@ -419,7 +419,6 @@ appears before gitlab-lsp--locate-config-with-secrets.
                     ;; This results in a key error, so let's just ignore it ...
                     ("gitlab.ls.codeSuggestionAccepted" #'ignore))))
 
-
 ;;;###autoload
 (defun gitlab-lsp-setup ()
   "Configures the access token for gitlab-lsp"
