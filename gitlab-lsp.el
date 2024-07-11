@@ -385,7 +385,7 @@ appears before gitlab-lsp--locate-config-with-secrets.
                                            (lsp-package-path 'gitlab-lsp)
                                            gitlab-lsp-langserver-command-args)))
   :activation-fn #'gitlab-lsp--client-active-for-mode-p
-  :multi-root nil
+  :multi-root t
   :priority -2
   :add-on? t
   :completion-in-comments? t
@@ -408,7 +408,7 @@ appears before gitlab-lsp--locate-config-with-secrets.
                                            (executable-find gitlab-lsp-executable)
                                            gitlab-lsp-langserver-command-args)))
   :activation-fn #'gitlab-lsp--client-active-for-mode-p
-  :multi-root nil
+  :multi-root t
   :priority -2
   :add-on? t
   :completion-in-comments? t
